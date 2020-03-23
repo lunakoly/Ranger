@@ -1,7 +1,7 @@
 # Overview
 This utility can split one single video into a bunch of other videos each one being a sequence of subclips of the original video. Text clips with captions/comments are also supported.
 
-Source video splitting is described via so called _ranges-files_.
+Source video splitting is described via so called _ranges-files_. You can also download VS Code extension for _ranges-files_ syntax highlighting [here](https://github.com/lunakoly/RangesFileLanguage).
 
 See _test_counter_ if you need an example.
 
@@ -28,6 +28,8 @@ Options can be specified as `-c <...> -i <...> -r <...> -o <...>` or `-ciro <...
 - `-h`, `--help` - Show help message.
 
 # Ranges-files
+VS Code syntax highlighting extension is available [here](https://github.com/lunakoly/RangesFileLanguage).
+
 Ranges files follow the following syntax rules:
 - Empty lines are ignored.
 - Lines that match the pattern `<time>-<time> [marker]` are treated as _time directives_ and define a subclip of the source video.
