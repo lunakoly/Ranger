@@ -1,0 +1,19 @@
+Usage: cut [OPTION]...
+Cut video into marker sequences. The result is a bunch of files
+with particular file pattern containing the marker name. If no
+marker is assigned to a subclip it's treated as 'main'.
+
+  -r, --ranges <file>           Specify the ranges file path.
+  -i, --input <file>            Specify the input file path
+  -o, --output <pattern>        Specify the output file pattern.
+                                If contains '{}', then '{}' will be
+                                replaced with the marker name.
+  -f, --fontsize <int>          Specify the font size in px.
+  -c, --collect <marker name>   Specify the name of the marker
+                                sequence that should collect all
+                                subclips. Tip: it's handy to
+                                specify 'main' if you want 'main'
+                                to not only be the sequence of
+                                unassigned clips but also to
+                                include every other.
+ -h, --help                     You got it.
