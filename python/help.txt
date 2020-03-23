@@ -16,4 +16,7 @@ marker is assigned to a subclip it's treated as 'main'.
                                 to not only be the sequence of
                                 unassigned clips but also to
                                 include every other.
- -h, --help                     You got it.
+  -u, --inclusive               If specified, stop time value of every
+                                video clip range in incremented
+                                by one second.
+  -h, --help                    You got it.
